@@ -1,0 +1,99 @@
+.button {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  color: $accent-color;
+  background: $nav-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  border: 0;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color $duration;
+}
+
+.button.primary {
+  padding: 10px 32px;
+
+  &:hover,
+  &:focus {
+    background-color: $btn-color;
+  }
+}
+
+.button.secondary {
+  color: $title-text-color;
+  background: #F5F4FA;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  border-radius: 4px;
+  min-width: 73px;
+  padding: 6px 22px;
+  border-color: transparent;
+  border-image: none;
+  border-style: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: color $duration, background-color $duration, drop-shadow $duration, box-shadow $duration;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    background-color: $nav-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.backdrop__btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: $nav-color;
+  color: $accent-color;
+  transition: background-color $duration;
+  border-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  &:hover,
+  &:focus {
+    background-color: $btn-color ;
+  }
+}
+
+.footer__btn-footer {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 28px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: color $duration;
+
+  &:hover,
+  &:focus {
+    background-color: $btn-color ;
+  }
+}
+
+.footer__follow-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: $accent-color;
+}

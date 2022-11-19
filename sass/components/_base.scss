@@ -1,0 +1,98 @@
+body {
+  background: $accent-color;
+  font-family: "roboto", sans-serif;
+  color: $main-color;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: $title-text-color;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: 1.14;
+  text-decoration: none;
+  transition: color $duration;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.list .list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.list .link:hover,
+.list .link:focus {
+  color: $nav-color;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: $title-text-color;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}

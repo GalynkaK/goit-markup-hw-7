@@ -1,0 +1,58 @@
+.logo {
+  margin-right: 93px;
+  font-family: $logo-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: inherit;
+}
+
+.header__logo {
+  margin-top: 24px;
+  margin-bottom: 25px;
+  transition: color $duration;
+}
+
+.logo--blue {
+  color: $nav-color;
+
+  &:hover,
+  &:focus {
+    color: $title-text-color;
+  }
+}
+
+.logo--black {
+  color: $title-text-color;
+
+  &:hover,
+  &:focus {
+    color: $nav-color;
+  }
+}
+
+.footer__logo {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  transition: color $duration;
+}
+
+.footer__logo--blue {
+  color: $nav-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.logo--white {
+  color: $accent-color;
+
+  &:hover,
+  &:focus {
+    color: $nav-color;
+  }
+}

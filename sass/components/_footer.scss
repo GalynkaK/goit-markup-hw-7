@@ -1,0 +1,137 @@
+.footer {
+  margin-top: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $title-text-color;
+}
+
+
+.footer__emblem {
+  width: 270px;
+  margin-right: 70px;
+}
+
+.footer__container {
+  display: flex;
+}
+
+.footer__address {
+  color: $accent-color;
+  transition: color $duration;
+
+  &:hover,
+  &:focus {
+    color: $nav-color;
+  }
+}
+
+.contacts-footer {
+  padding-top: 9px;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: $accent-color;
+  opacity: .6;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  transition: color $duration;
+}
+
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: $nav-color;
+}
+
+
+.footer__follow {
+  display: block;
+  align-items: center;
+  margin-right: 93px;
+  padding-top: 12px;
+}
+
+.footer__title {
+  margin-bottom: 20px;
+  color: $accent-color;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.social__icon--color {
+  background-color: #2196F3;
+  fill: var(--accent-color);
+
+}
+
+.social-link-footer {
+  display: flex;
+}
+
+.icon-footer {
+  align-items: center;
+  margin-right: 10px;
+
+  &:nth-last-child(4) {
+    margin-left: 0;
+  }
+}
+
+.footer-social-link {
+  display: inline-block;
+  fill: currentColor;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon-footer {
+  display: flex;
+  fill: var(--accent-color);
+  padding: 12px;
+}
+
+.footer-social-link {
+  display: inline-block;
+  fill: currentColor;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  transition: background-color var(--duration);
+}
+
+.footer-social-link:focus,
+.footer-social-link:hover {
+  background-color: var(--nav-color);
+}
+
+.footer__action {
+  display: block;
+  align-items: center;
+  width: 570px;
+  height: 86px;
+  padding-top: 12px;
+}
+
+.footer__form-mail {
+  display: flex;
+}
+
+.footer__join-mail {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  padding: 15px 16px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: $title-text-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
